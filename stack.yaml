@@ -1,0 +1,20 @@
+resolver: lts-6.12
+# nightly-2016-08-17
+packages:
+- '.'
+extra-deps:
+- snap-1.0.0.0
+- snap-server-1.0.0.0
+- snap-core-1.0.0.0
+- heist-1.0.0.0
+- map-syntax-0.2.0.1
+- xmlhtml-0.2.3.5
+- snaplet-postgresql-simple-1.0
+- snap-loader-static-1.0.0.0
+- snap-loader-dynamic-1.0.0.0
+- snap-templates-1.0.0.0
+- io-streams-haproxy-1.0.0.1
+
+flags: {}
+
+extra-package-dbs: []
